@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
     // 定义静态资源的正则表达式
-    var staticResourcesRegex = /\.(css|js|jpg|jpeg|png|gif)$/i;
+    var staticResourcesRegex = /\.(css|js|jpg|jpeg|png|gif|svg|ico)$/i;
     // 指定详细网址链接
     var specificUrl = "https://whoer.net/zh/main/api/ip";
 
