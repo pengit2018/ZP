@@ -3,6 +3,7 @@ function FindProxyForURL(url, host) {
     var staticResourcesRegex = /\.(css|js|jpg|jpeg|png|gif|svg|ico)$/i;
     // 指定详细网址链接
     var specificUrl = "https://whoer.net/zh/main/api/ip";
+    var specificUrl = "https://myip.mili.one/";
 
     // 检查URL是否匹配静态资源或指定网址
     if (staticResourcesRegex.test(url) || url === specificUrl) {
